@@ -4,6 +4,8 @@ import pandas as pd
 
 if True:
     os.chdir("../data/rawData")
+else:
+    os.chdir("../data/concatedData")
 
 """
 Take all current csv files and merge to a sigle csv for training
